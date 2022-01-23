@@ -8,10 +8,11 @@ const {Text,Title} =Typography;
 const {Option} =Select;
 
 const News = ({simplified}) => {
+    const [newsCategory,setNewsCategory]=useState('Cryptocurrency')
+
     const { data } = useGetCryptosQuery(100);
     const {data:cryptosNewsList ,isFetching}=useGetCryptoNewsQuery({newsCategory,count: simplified ? 6:12});
-    console.log(cryptosNewsList);
-    const [newsCategory,setNewsCategory]=useState('Cryptocurrency')
+    // console.log(cryptosNewsList);
     if(!cryptosNewsList ?.value) return 'Loading ...'
     return (
        
@@ -26,7 +27,9 @@ const News = ({simplified}) => {
                     onChange={(value) => setNewsCategory(value)}
                     filterOption={(input, option) => option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0}>
                 <Option value="Cryptocurency">Cryptocurrency</Option>
-                    {data?.data?.coins?.map((currency) => <Option value={currency.name}>{currency.name}</Option>)}
+                    {data?.data?.coins?.map((currency) => 
+                    <Option value={currency.name}>{currency.name}
+                </Option>)}
             </Select>
             </Col>
         )}
