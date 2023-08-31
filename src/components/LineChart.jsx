@@ -43,15 +43,6 @@ const {Title}= Typography;
         ],
     };
     const options={
-        // scales:{
-        //     yAxes:[
-        //         {
-        //             ticks:{
-        //                 beginAtZero: true,
-        //             },
-        //         },
-        //     ],
-        // },
         responsive: true,
   plugins: {
     legend: {
