@@ -1,0 +1,22 @@
+.crypto_header_container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+.crypto_header_container input {
+  padding: 10px;
+  border-radius: 11px;
+  border: none;
+  width: 300px;
+}
+
+.card_data p {
+  letter-spacing: 0.75px;
+  word-spacing: 5px;
+}
+.card_data span {
+  margin-left: 1rem;
+}
+.cards_container_crypto {
+    height: 250px;
+}

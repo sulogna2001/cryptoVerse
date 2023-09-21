@@ -1,0 +1,17 @@
+
+.coin_detail_container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 4rem;
+}
+.coin_detail
+{
+    width: 400px;
+    padding: 3rem;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.coin_list_items{
+    display: flex;
+    justify-content: space-between;
+}

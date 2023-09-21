@@ -1,0 +1,6 @@
+.home_container{
+    display: flex;
+}
+.home_crypto{
+    width: 65%;
+}

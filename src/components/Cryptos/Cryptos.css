@@ -1,0 +1,12 @@
+.main_container_upper{
+    margin-top: 2rem;
+}
+.main_container_lower{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.card1{
+    height: 100px;
+}

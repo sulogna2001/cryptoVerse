@@ -1,0 +1,109 @@
+.card_container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 150px;
+    max-width: 350px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
+    font-size: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    height: 450px;
+  }
+  
+  .card_container * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .card_container:after {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 0 25px 25px;
+    border-color: transparent transparent transparent #007aff;
+    content: '';
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  .card_container img {
+    max-width: 100%;
+    vertical-align: top;
+    position: relative;
+  }
+  
+  .card_container figcaption {
+    padding: 20px 20px 30px;
+    background-color: #ffffff;
+  }
+  
+  .card_container .date {
+    background-color: #007aff;
+    top: 15px;
+    color: #fff;
+    right: 15px;
+    min-height: 48px;
+    min-width: 48px;
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50%;
+    padding: 10px 0;
+  }
+  
+  .card_container .date span {
+    display: block;
+    line-height: 14px;
+  }
+  
+  .card_container .date .month {
+    font-size: 11px;
+  }
+  
+  .card_container h3,
+  .card_container p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card_container h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: 700;
+  }
+  
+  .card_container p {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    line-height: 1.6em;
+  }
+  .card_container a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .card_container:hover:after,
+  .card_container.hover:after {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+
+  .news_container{
+    padding: 4rem;
+}

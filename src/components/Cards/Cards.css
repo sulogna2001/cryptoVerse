@@ -1,0 +1,19 @@
+
+.Cards{
+    background-color: #171A26;
+    margin-right: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    height: 120px;
+}
+.Cards p{
+    font-size: 40px;
+    margin: 10px;
+}
+.Cards span{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.Cards img {
+    height: 60px;
+}

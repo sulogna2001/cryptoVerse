@@ -1,0 +1,20 @@
+:root {
+  font-family: "Noto Sans Osmanya", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Outfit", sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+}
+body {
+  background-color: #000000;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  min-width: 320px;
+  min-height: 100vh;
+  /* overflow: hidden; */
+
+}
