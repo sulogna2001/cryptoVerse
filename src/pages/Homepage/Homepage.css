@@ -1,6 +1,7 @@
+.home_main_container{
+}
 .home_container{
     display: flex;
-}
-.home_crypto{
-    width: 65%;
+    justify-content: center;
+    margin-left: 5rem;
 }

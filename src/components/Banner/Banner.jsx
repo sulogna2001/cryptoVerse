@@ -1,17 +1,17 @@
 import "./Banner.css";
-import banner from "../../assets/banner.png";
 
 const Banner = () => {
   return (
     <div className="banner_main_container">
-      <div className="container_left">
-        <span>
-          Unlocking Cryptos Secrets: Your Source for In-Depth Crypto Stats.
-        </span>
-        <button>Learn More</button>
-      </div>
-      <div className="container_right">
-        <img src={banner} alt="banner"/>
+      <div className="banner_container">
+        <span>Track your data </span>
+        <br />
+        <span>performance with ease</span>
+        <br />
+        <p>
+          Empowering Your Crypto Journey: Real-Time Data, 
+          Insightful Analytics, <br />and Market Trends at Your Fingertips.
+        </p>
       </div>
     </div>
   );
